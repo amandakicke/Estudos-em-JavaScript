@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        let a = {
+            nome: 'Amanda',
+            nota: 8.6
+        }
+        
+        let b = JSON.stringify(a);
+
+        let a2 = '{"nome": "Amanda", "nota": 7.8}';
+        let b2 = JSON.parse(a2)
+
+        console.log(a)
+        console.log(a2)
+        console.log(b2)
+
+        console.log(a2.nome);
+        console.log(b2.nome);
+
+
+
+        //JSON.parse //pega uma string e tenta transformar em um objeto
+       // JSON.stringify pega um objeto e tenta transformar em uma string
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
