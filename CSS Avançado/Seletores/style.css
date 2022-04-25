@@ -1,0 +1,27 @@
+div, header {
+    background-color: blueviolet;
+    
+
+}
+.p2, h2{
+    background-color: aqua;
+}
+/*
+* {
+    Todos os elementos}
+
+    header > p{pega apenas os filhos diretos
+
+        header + p{
+            pega o primeiro p depois do header
+
+            header ~ p{
+                pega todos os p depois do header
+
+
+
+[width]{
+    Pega todos os elementos com este atributo}
+    [title~="t"] atributo que contenha o elemento
+    [title^="t"]atributo que inicie com o elemento
+    [title$="t"]            atributo que encerre com o elemento    

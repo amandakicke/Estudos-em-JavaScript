@@ -1,0 +1,17 @@
+p::first-line {
+    color: red;
+}
+h1::first-letter{
+    color: blue;
+    font-size: 5rem;
+}
+li::before {
+    content: A;
+color: blueviolet;
+font-size: 6rem;
+}
+
+p::selection{
+    background-color: yellow;
+    color: orangered;
+}

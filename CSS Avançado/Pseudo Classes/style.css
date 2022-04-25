@@ -1,0 +1,21 @@
+input:focus{
+    color: brown;
+}
+
+li:first-child{
+    color: blue;
+}
+
+li:first-of-type{
+    color: brown;
+}
+li:nth-child(2){
+    color: blueviolet;
+}
+li:nth-of-type(3){
+    /*pode usar odd, even, 2n para ir de dois em dois; 3n(multiplos de 3)*/
+    color: red;
+}
+li:nth-last-child(1){
+    color: green;
+}
